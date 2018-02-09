@@ -2,7 +2,7 @@
 
 namespace p04_VariableInHexFormat
 {
-    class Program
+    class p04_VariableInHexFormat
     {
         static void Main(string[] args)
         {
