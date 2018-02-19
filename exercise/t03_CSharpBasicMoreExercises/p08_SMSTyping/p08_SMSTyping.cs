@@ -93,7 +93,7 @@ namespace p08_SMSTyping
                     switch (number.Length)
                     {
                         case 1: Console.Write("w"); break;
-                        case 2: Console.Write("z"); break;
+                        case 2: Console.Write("x"); break;
                         case 3: Console.Write("y"); break;
                         case 4: Console.Write("z"); break;
                     }
