@@ -16,13 +16,20 @@ namespace p05_PizzaIngredients
 
                 if (current.Length == length)
                 {
+                    if (count >= 10)
+                    {
+                        break;
+                    }
+
                     count++;
                     result += current + ", ";
                     Console.WriteLine($"Adding {current}.");
+
+                    
                 }
             }
 
-            if (result.EndsWith(' '))
+            if (result.EndsWith(", "))
             {
                 result = result.Remove(result.Length - 2);
             }
