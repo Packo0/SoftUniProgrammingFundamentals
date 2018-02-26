@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p01_Phonebook", "p01_Phonebook\p01_Phonebook.csproj", "{539B0875-12C0-4AD2-B238-6F10E33001A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p01_Phonebook", "p01_Phonebook\p01_Phonebook.csproj", "{539B0875-12C0-4AD2-B238-6F10E33001A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p02_PhonebookUpgrade", "p02_PhonebookUpgrade\p02_PhonebookUpgrade.csproj", "{2AE862DE-4F85-490F-85CC-2365B62B79DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p02_PhonebookUpgrade", "p02_PhonebookUpgrade\p02_PhonebookUpgrade.csproj", "{2AE862DE-4F85-490F-85CC-2365B62B79DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p03_MinerTask", "p03_MinerTask\p03_MinerTask.csproj", "{3ECECAC4-5840-440D-80CB-6C6761DA9D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p03_MinerTask", "p03_MinerTask\p03_MinerTask.csproj", "{3ECECAC4-5840-440D-80CB-6C6761DA9D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p04_FixEmails", "p04_FixEmails\p04_FixEmails.csproj", "{E4FD0E7F-ED45-4118-88B2-D0B8458D9D85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p04_FixEmails", "p04_FixEmails\p04_FixEmails.csproj", "{E4FD0E7F-ED45-4118-88B2-D0B8458D9D85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p05_HandsOfCards", "p05_HandsOfCards\p05_HandsOfCards.csproj", "{C0B8FDBA-6A46-4ACA-ACA1-9DD9DA5E34D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p05_HandsOfCards", "p05_HandsOfCards\p05_HandsOfCards.csproj", "{C0B8FDBA-6A46-4ACA-ACA1-9DD9DA5E34D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p06_UserLogs", "p06_UserLogs\p06_UserLogs.csproj", "{56BBBEB1-3F05-4785-9ADC-450C65368080}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p07_PopulationCounter", "p07_PopulationCounter\p07_PopulationCounter.csproj", "{B19187F5-2C13-4B28-9D7C-E8C8A4127B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p08_LogsAggregator", "p08_LogsAggregator\p08_LogsAggregator.csproj", "{C6D7DE77-E14F-4ECD-B320-1742B309C4BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{C0B8FDBA-6A46-4ACA-ACA1-9DD9DA5E34D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B8FDBA-6A46-4ACA-ACA1-9DD9DA5E34D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B8FDBA-6A46-4ACA-ACA1-9DD9DA5E34D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56BBBEB1-3F05-4785-9ADC-450C65368080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56BBBEB1-3F05-4785-9ADC-450C65368080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56BBBEB1-3F05-4785-9ADC-450C65368080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56BBBEB1-3F05-4785-9ADC-450C65368080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19187F5-2C13-4B28-9D7C-E8C8A4127B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19187F5-2C13-4B28-9D7C-E8C8A4127B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19187F5-2C13-4B28-9D7C-E8C8A4127B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19187F5-2C13-4B28-9D7C-E8C8A4127B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D7DE77-E14F-4ECD-B320-1742B309C4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D7DE77-E14F-4ECD-B320-1742B309C4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D7DE77-E14F-4ECD-B320-1742B309C4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D7DE77-E14F-4ECD-B320-1742B309C4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
